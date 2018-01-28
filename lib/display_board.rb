@@ -2,13 +2,11 @@
 def display_board
   #puts "Welcome to Tic Tac Toe"
   cell = "   "
-  print cell + "|" + cell + "|" + cell
-  puts
+  puts cell + "|" + cell + "|" + cell
   puts "-----------"
-  print cell + "|" + cell + "|" + cell
-  puts
+  puts cell + "|" + cell + "|" + cell
   puts "-----------"
-  print cell + "|" + cell + "|" + cell
+  puts cell + "|" + cell + "|" + cell
 end
 
 display_board
